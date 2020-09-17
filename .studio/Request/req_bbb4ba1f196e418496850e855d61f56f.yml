@@ -1,0 +1,36 @@
+_id: req_bbb4ba1f196e418496850e855d61f56f
+authentication: {}
+body: {}
+created: 1581312759084
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1581312759084
+method: GET
+modified: 1581352672800
+name: httpbin GET
+parameters:
+  - description: ""
+    disabled: true
+    id: pair_4bd7071bb511469588318d89170554b0
+    name: Test
+    value: "true"
+  - description: ""
+    disabled: false
+    id: pair_e3b5d5648a884519a9d187949026b807
+    name: User
+    value: Kim
+  - description: ""
+    disabled: false
+    id: pair_a27d359113084ae0ac7a6e820baa9e96
+    name: User
+    value: Gerald
+parentId: wrk_05d4e24d019c461c9664e7adf9857f5a
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://httpbin.org/get

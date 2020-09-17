@@ -1,0 +1,46 @@
+_id: req_a4efda9317544f3c9dc846be85727e52
+authentication: {}
+body:
+  mimeType: application/json
+  text: ""
+created: 1581315802437
+description: ""
+headers:
+  - id: pair_1aa905197abb416786d63e8ad690359f
+    name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1581315802437
+method: GET
+modified: 1581316329675
+name: FRED Economic Data 30 Year Mortgage
+parameters:
+  - description: ""
+    disabled: false
+    id: pair_1f967fbb2fab4bef861a9c86d5bd9de0
+    name: api_key
+    value: 5cb87f25bddd642d8df31d79ed188b8d
+  - description: ""
+    disabled: false
+    id: pair_43cdcf055cc442538628923374e4a3b3
+    name: series_id
+    value: MORTGAGE30US
+  - description: ""
+    disabled: false
+    id: pair_efc7e93f34fb45f7bd479f5a0577c80f
+    name: duration
+    value: "30"
+  - description: ""
+    disabled: false
+    id: pair_0854794e2d894d60aa6f1dd175bdb595
+    name: file_type
+    value: json
+parentId: wrk_05d4e24d019c461c9664e7adf9857f5a
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://api.stlouisfed.org/fred/series/observations

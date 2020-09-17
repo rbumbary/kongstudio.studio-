@@ -1,0 +1,30 @@
+_id: req_5934af2af1ab4ab8926896ddacb77f38
+authentication: {}
+body:
+  mimeType: application/json
+  text: '{"username": "joe","email": "Robert@example.com"}'
+created: 1581313614938
+description: ""
+headers:
+  - id: pair_13bd53a0f296403b8f2080fccd5b8b25
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_c6195cc65f624052ae876f9108cc3f1d
+    name: User-Agent
+    value: kongstudio/1.1.1.
+isPrivate: false
+metaSortKey: -1581312949204
+method: POST
+modified: 1581313946462
+name: httpbin POST Form JSON Request
+parameters: []
+parentId: wrk_05d4e24d019c461c9664e7adf9857f5a
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://httpbin.org/post

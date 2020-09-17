@@ -1,0 +1,29 @@
+_id: req_7f0b240925a3469b8a835e1db4dda1d5
+authentication: {}
+body:
+  mimeType: application/json
+  text: ""
+created: 1581314030884
+description: World Bank Test
+headers:
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1581314030884
+method: GET
+modified: 1581315038553
+name: "World Bank "
+parameters:
+  - description: ""
+    id: pair_9b03b65744784642903af573fc0a150b
+    name: format
+    value: json
+parentId: wrk_05d4e24d019c461c9664e7adf9857f5a
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: http://api.worldbank.org/countries?format=json

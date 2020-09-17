@@ -1,0 +1,38 @@
+_id: req_2a1513429cf24ed5b852a564f51b1e4b
+authentication: {}
+body:
+  mimeType: multipart/form-data
+  params:
+    - description: ""
+      id: pair_8834a41fc9c64b9dba218a9d3e5fba3c
+      name: Username
+      value: Robert
+    - description: ""
+      id: pair_b7b8d945b3af42e0aa268d5a97b276e0
+      name: Email
+      value: email@example.com
+created: 1581313139324
+description: ""
+headers:
+  - id: pair_13bd53a0f296403b8f2080fccd5b8b25
+    name: Content-Type
+    value: multipart/form-data
+  - description: ""
+    id: pair_c6195cc65f624052ae876f9108cc3f1d
+    name: User-Agent
+    value: kongstudio/1.1.1.
+isPrivate: false
+metaSortKey: -1581313139324
+method: POST
+modified: 1581352941553
+name: httpbin POST Form Data
+parameters: []
+parentId: wrk_05d4e24d019c461c9664e7adf9857f5a
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://httpbin.org/post

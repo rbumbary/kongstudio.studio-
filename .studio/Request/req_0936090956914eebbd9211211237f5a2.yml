@@ -1,0 +1,21 @@
+_id: req_0936090956914eebbd9211211237f5a2
+authentication: {}
+body: {}
+created: 1599666359939
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1599666359939
+method: GET
+modified: 1599666359939
+name: JEDI Council Presentation
+parameters: []
+parentId: wrk_05d4e24d019c461c9664e7adf9857f5a
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: ""

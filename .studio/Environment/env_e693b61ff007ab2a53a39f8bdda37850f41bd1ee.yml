@@ -1,0 +1,16 @@
+_id: env_e693b61ff007ab2a53a39f8bdda37850f41bd1ee
+color: null
+created: 1581312433547
+data:
+  api_key: 5cb87f25bddd642d8df31d79ed188b8d
+  base_url: https://api.stlouisfed.org/fred/series/observations
+dataPropertyOrder:
+  "&":
+    - base_url
+    - api_key
+isPrivate: false
+metaSortKey: 1581312433547
+modified: 1581316651898
+name: Base Environment
+parentId: wrk_05d4e24d019c461c9664e7adf9857f5a
+type: Environment
